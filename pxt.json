@@ -1,14 +1,12 @@
 {
-    "name": "motor_1",
-    "description": "",
+    "name": "pxt_motor_T",
+    "description": "waveshare electronics",
     "dependencies": {
         "core": "*",
-        "radio": "*",
         "microphone": "*"
     },
     "files": [
-        "main.blocks",
-        "main.ts",
+        "MotorDriver.ts",
         "README.md"
     ],
     "testFiles": [
@@ -21,5 +19,16 @@
     "supportedTargets": [
         "microbit"
     ],
-    "preferredEditor": "tsprj"
+    "preferredEditor": "tsprj",
+    "yotta": {
+        "config": {
+            "microbit-dal": {
+                "bluetooth": {
+                    "open": 1,
+                    "whitelist": 0,
+                    "security_level": null
+                }
+            }
+        }
+    }
 }

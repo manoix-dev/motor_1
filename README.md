@@ -1,24 +1,20 @@
 
 > Open this page at [https://manoix-dev.github.io/motor_1/](https://manoix-dev.github.io/motor_1/)
 
-## Use as Extension
+# pxt-Motor
 
-This repository can be added as an **extension** in MakeCode.
+waveshare electronics
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **New Project**
-* click on **Extensions** under the gearwheel menu
-* search for **https://github.com/manoix-dev/motor_1** and import
+![icon.png](icon.png)
 
-## Edit this project
+# user and test 
+Test can refer to test.ts
 
-To edit this repository in MakeCode.
+## License
 
-* open [https://makecode.microbit.org/](https://makecode.microbit.org/)
-* click on **Import** then click on **Import URL**
-* paste **https://github.com/manoix-dev/motor_1** and click import
+MIT
 
-#### Metadata (used for search, rendering)
+## Supported targets
 
 * for PXT/microbit
-<script src="https://makecode.com/gh-pages-embed.js"></script><script>makeCodeRender("{{ site.makecode.home_url }}", "{{ site.github.owner_name }}/{{ site.github.repository_name }}");</script>
+(The metadata above is needed for package search.)
